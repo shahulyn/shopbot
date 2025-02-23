@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receipt - Chic Opulance</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thaana:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+            body {
+                font-family: 'Roboto', sans-serif;
+                background-color: #121212;
+                color: #e0e0e0;
+                margin: 0;
+                padding: 1px;
+                display: flex;
+                justify-content: center;
+            }
+            .receipt {
+                background: #121212;
+                padding: 20px;
+                border-radius: 8px;
+                max-width: 400px;
+                width: 100%;
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+                position: relative;
+            }
+            .logo {
+                display: block;
+                margin: 0 auto 10px;
+                height: 80px;
+            }
+            h1, p {
+                text-align: center;
+                margin: 5px 0;
+            }
+            h2 {
+                text-align: center;
+                margin: 5px 0;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .dashed-line {
+                border-top: 1px dashed #888;
+                margin: 10px 0;
+            }
+            .total {
+                font-size: 24px;
+                color: #fff;
+                font-weight: bold;
+            }
+            .item {
+                display: flex;
+                justify-content: space-between;
+                white-space: nowrap;
+                overflow: hidden;
+                padding: 5px 0;
+            }
+            .product-name {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                flex: 1;
+            }
+            .price {
+                flex-shrink: 0;
+                margin-left: 10px;
+            }
+            .footer {
+                text-align: center;
+                font-size: 14px;
+                color: #bbb;
+            }
+            .footer-inline {
+                display: flex;
+                justify-content: space-between;
+                font-size: 14px;
+                color: #bbb;
+                margin-bottom: 5px;
+            }
+            .footer-bottom{
+               text-align: center;
+                font-size: 10px;
+                margin-top: 20px;
+                color: #bbb;
+            }
+    </style>
+  </head>
+  <body>
+    <div class="receipt">
+      <img
+        class="logo"
+        src="https://data-prod-eu-loyverse-com.s3.amazonaws.com/outlets/3279808/profile/emailLogo2024-07-23-09-19-35-035.png"
+        alt="Chic Opulance"
+      />
+      <h2>SM SHOP</h2>
+      <div class="dashed-line"></div>
+      <p class="total">MVR 315.00</p>
+      <div class="dashed-line"></div>
+      <div class="item">
+        <span class="product-name">
+        Laneige Lip Glowy Balm
+        </span>
+        <span class="price">MVR 315.00</span>
+      </div>
+      <span class="footer-inline">1 × MVR 315.00</span>
+      <div class="dashed-line"></div>
+      <div class="item">
+        <strong>Total</strong>
+        <strong>MVR 315.00</strong>
+      </div>
+      <div class="item">
+        <span>Transfer</span>
+        <span>MVR 315.00</span>
+      </div>
+      <div class="dashed-line"></div>
+      <p class="footer">✨🎉عيد مبارك</p>
+      <p class="footer">
+        BML Transfer: 7730000465147 (SM SHOP)<br />Viber: 7620064
+      </p>
+      <div class="footer-inline">
+        <span>Feb 19, 2025 12:44</span>
+        <span>№ 1-1003</span>
+      </div>
+      <p class="footer-bottom">@shahulyn🤍</p>
+    </div>
+  </body>
+</html>
